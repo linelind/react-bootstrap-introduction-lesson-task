@@ -1,0 +1,40 @@
+// custom
+$colour-primary: #065ca7;
+$colour-secondary: #6a6a68;
+$colour-copy: #383838;
+$colour-background: #f4f4f4;
+
+$medium-width: 768px;
+
+$shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+
+// bootstrap
+$theme-colors: (
+    "primary": $colour-primary,
+    "dark": $colour-primary,
+);
+
+$input-border-color: white;
+$border-radius: 10px;
+
+$font-family: "Lato", sans-serif;
+$headings-color: $colour-copy;
+
+$body-bg: $colour-background;
+$body-color: $colour-copy;
+
+$card-cap-bg: white;
+$card-border-color: white;
+$nav-link-padding-x: 1.5rem;
+$input-padding-y: 0.8rem;
+$btn-padding-y: 0.6rem;
+$btn-padding-x: 1.2rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/typography";
+@import "./partials/layout";
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/accordion";
+@import "./partials/features";

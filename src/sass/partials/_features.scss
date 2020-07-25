@@ -1,0 +1,17 @@
+.features {
+    margin-bottom: 5rem;
+
+    .card {
+        margin-bottom: 1rem;
+        box-shadow: $shadow;
+
+        @media (min-width: $medium-width) {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.card-title {
+    color: $colour-primary;
+    font-size: 26px;
+}
